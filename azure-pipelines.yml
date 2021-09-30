@@ -57,7 +57,7 @@ stages:
         deploy:
           steps:
           - download: current
-            artifact: manifest
+            artifact: manifests
          # - task: AzureWebAppContainer@1
          #   inputs:
          #   appName: $(WebAppName)
